@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact page</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+
+      <table>
+        <tr>
+          <td><label for="username:">Username</label></td>
+          <td><input type="text" name="username" id="username"></td>
+        </tr>
+        <tr>
+          <td><label for="user-pwd">Password</label></td>
+          <td><input type="password" name="user-password" id="user-pwd"></td>
+        </tr>
+      </table>
+      <input type="radio" name="Gender" id="male">
+      <label for="male"> Male </label>
+      <input type="radio" name="Gender" id="female">
+      <label for="female"> Female </label>
+      <br>
+      <h4>Select Sports</h4>
+      <input type="checkbox" name="sports" id="soccer">
+      <label for="soccer">Soccer</label>
+      <input type="checkbox" name="sport" id="rugby">
+      <label for="rugby">Rugby</label>
+      <input type="checkbox" name="sport" id="volley">
+      <label for="volley">Volley</label>
+
+    <h4>Choose File</h4>
+    <label for="select">Upload</label>
+    <input type="file" name="upload" id="select">
+    <br>
+    <br>
+    <label for="address">Address</label>
+    <textarea rows="8" cols="80"></textarea>
+
+    <label for="city">City</label>
+    <select class="" name="city" id="city">
+      <option value="Sydney">Sydney</option>
+      <option value="Brisbane">Brisbane</option>
+      <option value="Melbourne">Melbourne</option>
+      <option value="Port Morseby">Port Morseby</option>
+    </select>
+    <br>
+    <button type="submit" value="Submit">Submit</button>
+    <button type="reset" value="reset">Reset</button>
+      </form>
+  </body>
+</html>
